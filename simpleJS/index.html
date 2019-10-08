@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ramoneStyle.css">
+</head>
+
+<body>
+    <div style="text-align: center">
+        <!-- Added a Heading  -->
+
+
+        <div style="background-color: steelblue" class="col-md-8">
+            <h1>Hello World</h1>
+            <!-- Added a placeholder for JavaScript -->
+            <div id="helper"></div>
+            <button onclick="getDATE()" class="btn btn-md btn-warning">Get Todays Date</button>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 alert alert-warning" id="make">
+                    TODAY'S date
+                </div>
+                <div class="col-md-4 alert alert-warning" id="date2">
+                    TODAY'S date
+                </div>
+                <div class="col-md-4 alert alert-warning" id="date3">
+                    TODAY'S date
+                </div>
+            </div>
+            <label for="make"> Enter a number For Password Length</label>
+            <hr>
+            <input type="number" name="passwordLength" id="passlength">
+            <button onclick="spellNames()" class="btn btn-md btn-primary">get a password</button>
+            <div class="alert alert-secondary" id="passgen">Your Password Shows Here</div>
+
+            <div class="alert alert-success"> @ ramone Hamlett </div>
+            <hr>
+            <button class="btn btn-md btn-danger" onclick="saveStuff()">Just hit Me Already </button>
+            <div class="alert alert-danger" id="sStuff"></div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example</title>
+    <link rel="stylesheet" href="/htmlJStemplate/css/style.css">
+</head>
+
+<body>
+    <!-- create a H2 `element 
+     next create a P `element
+     finally create a Button `element
+
+    -->
+
+    <h2>JavaScript Program</h2>
+
+    <p id="inner"></p>
+    <p id="outer"></p>
+    <script>
+        var x = 5;
+
+        function demo() {
+            var y = 6;
+            document.getElementById("inner").innerHTML = y;
+        }
+        demo();
+        document.getElementById("outer").innerHTML = x;
+    </script>
+</body>
+
+</html>
